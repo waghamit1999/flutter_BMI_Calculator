@@ -91,7 +91,7 @@ class ResultScreen extends StatelessWidget {
                           height: 40,
                         ),
                         Text(
-                          'You have a normal body weight. Good job!',
+                          result.feedback,
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 25,

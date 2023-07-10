@@ -11,9 +11,12 @@ enum BMIResult {
       color: Colors.green),
 
   overWeight(
-      title: 'OVERWEIGHT', feedback: 'Thoda work-out karo!', color: Colors.red),
+      title: 'OVERWEIGHT', feedback: 'Need to do work-out!', color: Colors.red),
 
-  obese(title: 'OBESE', feedback: 'Tum khana band kardo', color: Colors.red);
+  obese(
+      title: 'OBESE',
+      feedback: 'Make and follow a proper diet and do some exercise!',
+      color: Colors.red);
 
   final String title;
   final String feedback;
